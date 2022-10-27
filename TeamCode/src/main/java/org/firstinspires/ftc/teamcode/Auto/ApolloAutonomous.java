@@ -74,7 +74,7 @@ public class ApolloAutonomous extends LinearOpMode {
                 if (inches < 0) {
                     turnSpeed *= -1.0;
                 }
-
+//test
                 Log.d(robot.TAG, "turn speed: " + turnSpeed);
                 robot.driveRobot(maxDriveSpeed, turnSpeed);
             }
